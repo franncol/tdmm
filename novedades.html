@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Novedades - Cinéfilos</title>
+    <link rel="icon" type="image/png" href="imagenes/logomobile.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+   <nav class="navbar">
+       <button class="hamburguesa">
+            <img src="imagenes/menuhamburguesa.png" alt="Menú">
+        </button>
+       
+        <div class="logo">
+            <a href="index.html">
+                <img src="imagenes/logo.png" alt="Logo">
+            </a>
+        </div>
+        
+        <ul class="menu">
+              <li class="solo-mobile"><a href="index.html">INICIO</a></li>
+            <li><a href="novedades.html">NOVEDADES</a></li>
+            <li><a href="eventos.html">EVENTOS</a></li>
+            <li><a href="social.html">SOCIAL</a></li>
+            <li><a href="recomendados.html">RECOMENDADOS</a></li>
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+           <li class="solo-mobile"><a href="perfil.html">CUENTA</a></li>
+        </ul>
+
+        <div class="extras">
+            <button id="btnBuscar">
+                <img src="imagenes/lupa.png" alt="Buscar">
+            </button>
+            <input type="search" id="busqueda" placeholder="Buscar...">
+            <a class="notif">
+                <img src="imagenes/notifications.png" alt="Usuario">
+            </a>
+            <a href="perfil.html" class="usuario">
+                <img src="imagenes/usuario.png" alt="Usuario">
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="titulo">
+            <h1>NOVEDADES</h1>
+        </section>
+        <!-- DESTACADO -->
+        <a href="noticia.html" class="destacado">
+            <img src="imagenes/imagennovedades.png" alt="">
+
+            <div class="texto-carrusel">
+                <h2 class="etiqueta">DESTACADO</h2>
+                <h2>Ezequiel Rodríguez: de galán en "Violetta" <br>a referente del terror</h2>
+            </div>
+        </a>
+
+        <!-- PRÓXIMOS ESTRENOS -->
+        <section class="timeline-home">
+            <h2>PRÓXIMOS ESTRENOS</h2>
+
+            <div class="timeline">
+
+                <!-- EVENTO 1 -->
+                <div class="evento-row">
+                    <div class="evento-fecha">
+                        <span>JUL</span>
+                        <span class="dia">9</span>
+                    </div>
+                    <div class="evento-linea">
+                        <div class="evento-circulo"></div>
+                    </div>
+                    <div class="evento-card">
+                        <img src="imagenes/estreno1.jpg" alt="Festival de Cannes">
+                        <div class="evento-info">
+                            <span class="evento-tipo">PELÍCULA</span>
+                            <h3>MOANA</h3>
+                        </div>
+                        <div class="evento-meta">
+
+                            <div class="evento-meta-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                                7K ASISTIRÁN AL ESTRENO
+                            </div>
+                            <button class="btn-ver">VER MÁS</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EVENTO 2 -->
+                <div class="evento-row">
+                    <div class="evento-fecha">
+                        <span>JUL</span>
+                        <span class="dia">9</span>
+                    </div>
+                    <div class="evento-linea">
+                        <div class="evento-circulo"></div>
+                    </div>
+                    <div class="evento-card">
+                        <img src="imagenes/estreno2.jpg" alt="Festival de Cannes">
+                        <div class="evento-info">
+                            <span class="evento-tipo">PELÍCULA</span>
+                            <h3>DOS PIANOS</h3>
+                        </div>
+                        <div class="evento-meta">
+
+                            <div class="evento-meta-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                                2K ASISTIRÁN AL ESTRENO
+                            </div>
+                            <button class="btn-ver">VER MÁS</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- EVENTO 3 -->
+                <div class="evento-row">
+                    <div class="evento-fecha">
+                        <span>JUL</span>
+                        <span class="dia">13</span>
+                    </div>
+                    <div class="evento-linea">
+                        <div class="evento-circulo"></div>
+                    </div>
+                    <div class="evento-card">
+                        <img src="imagenes/estreno3.jpg" alt="Festival de Cannes">
+                        <div class="evento-info">
+                            <span class="evento-tipo">PELÍCULA</span>
+                            <h3>EL DÍA D: BAJO PRESIÓN</h3>
+
+                        </div>
+                        <div class="evento-meta">
+
+                            <div class="evento-meta-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                                1.5K ASISTIRÁN AL ESTRENO
+                            </div>
+                            <button class="btn-ver">VER MÁS</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- EVENTO 4 -->
+                <div class="evento-row">
+                    <div class="evento-fecha">
+                        <span>JUL</span>
+                        <span class="dia">29</span>
+                    </div>
+                    <div class="evento-linea">
+                        <div class="evento-circulo"></div>
+                    </div>
+                    <div class="evento-card">
+                        <img src="imagenes/estreno4.webp" alt="Festival de Cannes">
+                        <div class="evento-info">
+                            <span class="evento-tipo">PELÍCULA</span>
+                            <h3>SPIDER-MAN: UN NUEVO DÍA</h3>
+                        </div>
+                        <div class="evento-meta">
+
+                            <div class="evento-meta-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                                12K ASISTIRÁN AL ESTRENO
+                            </div>
+                            <button class="btn-ver">VER MÁS</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="noticias">
+            <h2>DESTACADOS</h2>
+
+            <div class="grid-noticias">
+
+                <article class="noticia">
+                    <img src="imagenes/noticia1.png" alt="">
+                    <div class="texto-carrusel">
+                        <h2 class="etiqueta">DESTACADO</h2>
+                        <h2>Los títulos que presentará Prime Video en Junio</h2>
+                    </div>
+                </article>
+
+                <article class="noticia">
+                    <img src="imagenes/noticia2.png" alt="">
+                    <div class="texto-carrusel">
+                        <h2 class="etiqueta">DESTACADO</h2>
+                        <h2>A 50 años de su estreno, ¡Taxi Driver vuelve al cine!</h2>
+                    </div>
+            </div>
+
+            </article>
+        </section>
+
+        <section class="noticias">
+            <h2>ENTREVISTAS</h2>
+
+            <div class="grid-noticias">
+                <article class="noticia">
+                    <img src="imagenes/noticia3.png" alt="">
+                    <div class="texto-carrusel">
+                        <h2 class="etiqueta">DESTACADO</h2>
+                        <h2>Scary Movie 6: una vuelta caótica, absurda <br> y divertida a los orígenes de la saga </br>
+                        </h2>
+                    </div>
+                </article>
+
+                <article class="noticia">
+                    <img src="imagenes/noticia4.png" alt="">
+                    <div class="texto-carrusel">
+                        <h2 class="etiqueta">DESTACADO</h2>
+                        <h2>Streaming: los títulos para ver este fin de semana</h2>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section class="pelis-noticias">
+            <h2>ESTRENOS</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="imagenes/peli1.png" alt="">
+                    <div class="texto-card">
+                        <h3 class="etiqueta">DESTACADO</h3>
+                        <h3>The Bear presentó el tráiler <BR> de su
+                            última temporada</BR></h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagenes/peli2.png" alt="">
+                    <div class="texto-card">
+                        <h3 class="etiqueta">DESTACADO</h3>
+                        <h3>Se estrenó el tráiler de la <br>tercera temporada de ‘House of Drafon’</BR></h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagenes/peli3.png" alt="">
+                    <div class="texto-card">
+                        <h3 class="etiqueta">DESTACADO</h3>
+                        <h3>Spider Noir: la nueva serie <br>de Nicolas Cage </br></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-arriba">
+            <div class="footer-item">
+                <img src="imagenes/logo.png">
+                <p>La comunidad definitiva para <br>los amantes del cine, las series</br> y el streaming.</p>
+                <img src="imagenes/redes.png">
+            </div>
+            <div class="footer-item espaciado">
+                <h3>EXPLORAR</h3>
+                <p>Novedades</p>
+                <p>Eventos</p>
+                <p>Social</p>
+                <p>Recomendados</p>
+                <p>Nosotros</p>
+            </div>
+            <div class="footer-item espaciado">
+                <h3>SOPORTE</h3>
+                <p>Contacto</p>
+                <p>Términos y condiciones</p>
+                <p>Política de privacidad</p>
+            </div>
+            <div class="footer-item">
+                <h3 class="footer-item espaciado">RECIBE NOTICIAS</h3>
+                <p>Suscribite y mantenete al día <br>con los mejores estrenos.</br></p>
+                <input type="email" placeholder="Tu correo electrónico">
+                <button class="btn-unirse">UNIRSE</button>
+            </div>
+        </div>
+        <div class="footer-centro">
+            <p>©2026 Cinéfilos. Todos los derechos reservados</p>
+            <p class="textoizq">Hecho con pasión por el cine.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
